@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{00559a4c-534e-46e3-80b8-e5bb73f265d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bcrypt">
+      <UniqueIdentifier>{29e61d1c-bd62-4be3-a723-23eab8c36951}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuthServerMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthServerSendManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthServerRecvManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\RequestAuthenticateAccount.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\RequestCreateAccount.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\ResponseAuthenticateAccount.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\ResponseCreateAccount.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\ResponseError.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bcrypt\bcrypt.cpp">
+      <Filter>bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="bcrypt\blowfish.cpp">
+      <Filter>bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\RequestNameChangeBuf.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\proto\ResponseNameChangeBuf.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoginDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthClientInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthServerSendManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthServerRecvManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\RequestAuthenticateAccount.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\RequestCreateAccount.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\ResponseAuthenticateAccount.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\ResponseCreateAccount.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\ResponseError.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtoBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bcrypt\bcrypt.h">
+      <Filter>bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="bcrypt\node_blf.h">
+      <Filter>bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="bcrypt\openbsd.h">
+      <Filter>bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="bcrypt\BCrypt.hpp">
+      <Filter>bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\RequestNameChangeBuf.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\proto\ResponseNameChangeBuf.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
